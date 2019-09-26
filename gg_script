@@ -5,7 +5,7 @@ GAMER = 0
 function HOMME()
   OIHOMME = gg.choice({
  "🌐العربية🌐",
- --9th"🌐English🌐",
+ --"🌐English🌐",
    }, nil,"📍🔨PUBG VIP HACK\n 📧🖊Telegram : || t.me/Muhagamer1")
   
 if OIHOMME == nil then
