@@ -5,7 +5,7 @@ echo "by: S.E"
 #off
 cd /data/data/com.tencent.ig/lib
 rm -rf *
-cd /data/local/SE_HACK
+cd /sdcard/.SE_HACK
 cp *  :/data/data/com.tencent.ig/lib
 chmod -R 755 /data/data/com.tencent.ig/lib/*
 chown system:system /data/data/com.tencent.ig/lib/*
