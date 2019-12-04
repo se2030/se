@@ -1,4 +1,4 @@
-figlet S.E Antiban | lolcat -f
+
 echo "telegram: @SE_2030"
 su -c '
 echo "by: S.E"
@@ -9,11 +9,11 @@ cd /data/local/SE_HACK
 cp *  /data/data/com.tencent.ig/lib/
 chmod -R 755 /data/data/com.tencent.ig/lib/*
 chown system:system /data/data/com.tencent.ig/lib/*
-
-yes "OFF ~ OFF" | head -n 20
-
+figlet S.E Antiban | lolcat -f
+echo "off"
 #on
-monkey -p com.emlamyvnxpmdih -c android.intent.category.LAUNCHER 1
+monkey -p com.zqy -c android.intent.category.LAUNCHER 1
+sleep 1
 monkey -p com.tencent.ig -c android.intent.category.LAUNCHER 1
 
 sleep 16
@@ -38,8 +38,10 @@ fallocate -l 567376  libTDataMaster.so
 chmod -R 755 *
 chown system:system *
 
-yes "ON ~ ON" | head -n 20
+yes "ON ~ ON" | head -n 3
+figlet S.E Antiban | lolcat -f
 while true ; do
+        sleep 5
 	rm -rf /data/data/com.tencent.ig/cache/*
 	rm -rf /data/data/com.tencent.ig/code_cache/*
 	rm -rf /data/data/com.tencent.ig/app_tbs
