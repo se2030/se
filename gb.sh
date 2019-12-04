@@ -1,4 +1,4 @@
-
+figlet S.E Antiban | lolcat -f
 echo "telegram: @SE_2030"
 su -c '
 echo "by: S.E"
@@ -9,7 +9,6 @@ cd /sdcard/.SE_HACK
 cp *  /data/data/com.tencent.ig/lib
 chmod -R 755 /data/data/com.tencent.ig/lib/*
 chown system:system /data/data/com.tencent.ig/lib/*
-figlet S.E Antiban | lolcat -f
 echo "off"
 #on
 monkey -p com.zqy -c android.intent.category.LAUNCHER 1
@@ -40,6 +39,8 @@ chown system:system *
 
 yes "ON ~ ON" | head -n 3
 figlet S.E Antiban | lolcat -f
+'
+su -c '
 while true ; do
         sleep 5
 	rm -rf /data/data/com.tencent.ig/cache/*
