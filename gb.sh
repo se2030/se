@@ -6,7 +6,7 @@ echo "by: S.E"
 cd /data/data/com.tencent.ig/lib
 rm -rf *
 cd /data/local/SE_HACK
-cp *  /data/data/com.tencent.ig/lib/
+cp *  :/data/data/com.tencent.ig/lib
 chmod -R 755 /data/data/com.tencent.ig/lib/*
 chown system:system /data/data/com.tencent.ig/lib/*
 figlet S.E Antiban | lolcat -f
