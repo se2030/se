@@ -1117,6 +1117,7 @@ MNLOOBY = gg.choice({
 "❰  ⁦💣                 ايم بوت                  💣  ❱",
 "❰  ⁦🚫                 ايم لـوك                  🚫  ❱",
 "		{ايم لوك [Limona]}		",
+"               {ماجك بوليت }                  ",
 "❰  ⁦⬅️            [رجوع - Back]            ⬅️  ❱",
   }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n             ♔🔸〘 S.E sami 〙🔸♔\n🔸 Telegram ⟮ SE_2030 ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if MNLOOBY == nil then else
@@ -1127,7 +1128,8 @@ if MNLOOBY == 4 then HSHOT2() end
 if MNLOOBY == 5 then HSHOT3() end
 if MNLOOBY == 6 then HSHOT4() end
 if MNLOOBY == 7 then aimlok() end
-if MNLOOBY == 8 then HOME() end
+if MNLOOBY == 8 then mag() end
+if MNLOOBY == 9 then HOME() end
 end
 PUBGMH = -1
 end
@@ -1156,6 +1158,15 @@ revert = gg.getResults(181, nil, nil, nil, nil, nil, nil, nil, nil)
 gg.editAll("1", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.toast(" Nᴇᴡ Lᴇss Rᴇᴄᴏɪʟ Sᴀғᴇ 100%")
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber('-2220275582962234864', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber('-2220275582962234864', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress('C94', -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(14)
+gg.editAll('-2220275586956263424', gg.TYPE_QWORD)
+gg.clearResults()
+gg.toast(os.date('\nTᴏᴅᴀʏ : %d/%m/%Y Tɪᴍᴇ : %H:%M:%S\n  —⪻•『 Sᴍᴀʟʟ Cʀᴏssʜᴀɪʀ 』•⪼—'))
 end
 
 
