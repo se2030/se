@@ -4,9 +4,9 @@ sleep 3
 #setup termux
 termux-setup-storage
 mkdir ~/.shortcuts
-apt update ; apt upgrade -y
-apt -y install python figlet wget
-pip install lolcat
+#apt update ; apt upgrade -y
+#apt -y install python figlet wget
+#pip install lolcat
 
 #download script
 cd ~/.shortcuts/
