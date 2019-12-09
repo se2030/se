@@ -20,4 +20,4 @@ su -c mkdir /data/local/S.E__kr/
 su -c cp /data/data/com.pubg.krmobile/lib/* /data/local/S.E__kr/
 
 #remove ~ali~ script
-rm -rf ali_0.sh
+rm -rf kr_install.sh
