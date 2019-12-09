@@ -1,3 +1,5 @@
+rm -rf ~/kr.sh
+rm -rf ~/kill_gg_term.py
 figlet S.E antiban | lolcat -f
 echo "Telegram : @SE_2030" | lolcat -a
 
