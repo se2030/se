@@ -1,6 +1,5 @@
 echo "Telegram:   @SE_2030 "
 echo ""
-echo "\n"
 sleep 3
 #setup termux
 termux-setup-storage
