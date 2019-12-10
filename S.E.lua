@@ -10,13 +10,12 @@ MN = gg.choice({
 "❰                   ⁦⛔   خـروج   ⛔                  ❱",
   }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n             ♔🔸〘 S.E sami 〙🔸♔\n🔸 Telegram ⟮ SE_2030 ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if MN == nil then else
-if MN == 1 then wall() end
-if MN == 2 then BDY() end
-if MN == 3 then LOOBY() end
-if MN == 4 then INGAME() end
-if MN == 5 then FLASHSPD() end
-if MN == 6 then NOTSAFE() end
-if MN == 7 then CLOSE() end
+if MN == 1 then BDY() end
+if MN == 2 then LOOBY() end
+if MN == 3 then INGAME() end
+if MN == 4 then FLASHSPD() end
+if MN == 5 then NOTSAFE() end
+if MN == 6 then CLOSE() end
 end
 PUBGMH = -1
 end
