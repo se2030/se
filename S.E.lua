@@ -1,7 +1,8 @@
-gg.alert("DECRYPT by << @SE_2030 >> ")
+gg.alert("script by SeniorM10 \n DECRYPT & Edit by << @SE_2030 >> \n \n اصدار 1.2 \n تم اضاقه \n ولهاك و لون اكسنوس 7870 \n [fast]ثبات 100 \n طيران الجيب \n ")
 HOME = 1
 function HOME()
 MN = gg.choice({
+"    		ولهاك اكسنوس 7870",
 "❰  ⁦📂        قائمة الول هاك و الألوان       📂  ❱",
 "❰  ⁦📂          تفعيل خصائص اللوبي        📂  ❱",
 "❰  ⁦📂     تفعيل خصائص داخل الجيم     📂  ❱",
@@ -10,14 +11,78 @@ MN = gg.choice({
 "❰                   ⁦⛔   خـروج   ⛔                  ❱",
   }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n             ♔🔸〘 S.E sami 〙🔸♔\n🔸 Telegram ⟮ SE_2030 ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if MN == nil then else
-if MN == 1 then BDY() end
-if MN == 2 then LOOBY() end
-if MN == 3 then INGAME() end
-if MN == 4 then FLASHSPD() end
-if MN == 5 then NOTSAFE() end
-if MN == 6 then CLOSE() end
+if MN == 1 then wall() end
+if MN == 2 then BDY() end
+if MN == 3 then LOOBY() end
+if MN == 4 then INGAME() end
+if MN == 5 then FLASHSPD() end
+if MN == 6 then NOTSAFE() end
+if MN == 7 then CLOSE() end
 end
 PUBGMH = -1
+end
+
+function wall()
+wall0 = gg.choice({
+"	تفعيل الولهاك		",
+"		لون احمر	",
+
+"	رجوع 		",
+  }, nil,"S.E sami ")
+if wall0 == nil then else
+if wall0 == 1 then wall1() end
+if wall0 == 2 then color2() end
+if wall0 == 3 then HOME() end
+end
+PUBGMH = -1
+end
+
+function wall1()
+if w == 1 then
+    WHFIX()
+  else
+    gg.clearList()
+    gg.clearResults()
+    gg.setRanges(gg.REGION_C_ALLOC)
+    gg.clearResults()
+    gg.searchNumber("0.5;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.processResume()
+    gg.clearResults()
+    gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.processResume()
+    revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+    gg.editAll("1", gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.searchNumber("0.5;2.8025969e-45:161", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.processResume()
+    gg.clearResults()
+    gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.processResume()
+    revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+    gg.editAll("0.5", gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.searchNumber("0.5;1.4012985e-45;1.4012985e-45;2.8025969e-45;2.2958874e-41::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    if gg.getResultCount() == 0 then
+      gg.alert("❎Value Not Found")
+    else
+      gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+      _Count = gg.getResultCount()
+      _A = gg.getResults(_Count)
+      last_Count = _Count + 1
+      w = 1
+      _T = "Wall Hack Exynos [Edit Value]"
+      WHFIX()
+    end
+  end
+end
+
+function color2()
+gg.clearResults()                                                                         gg.setRanges(4)
+gg.searchNumber("24;802824704;32;2::21", 4, false, 536870912, 0, -1)
+gg.refineNumber("24", 4, false, 536870912, 0, -1)
+gg.getResults(5)
+gg.editAll("22", 4)
+gg.toast("ACTIVE 100%")
 end
 
 function BDY()
@@ -1111,7 +1176,7 @@ end
 function LOOBY()
 MNLOOBY = gg.choice({
 "❰  ⁦🕸️               [FAST] ثبات سلاح               🕸️  ❱",
-"❰  ⁦🕸️             v2 ثبات سلاح             🕸️  ❱",
+"❰  ⁦🕸️            ثبات 100% 		🕸️  ❱",
 "❰  ⁦🎯            %هيدشوت 99            🎯  ❱",
 "❰  ⁦🎯            %هيدشوت 50             🎯  ❱",
 "❰  ⁦💣                 ايم بوت                  💣  ❱",
@@ -1122,7 +1187,7 @@ MNLOOBY = gg.choice({
   }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n             ♔🔸〘 S.E sami 〙🔸♔\n🔸 Telegram ⟮ SE_2030 ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if MNLOOBY == nil then else
 if MNLOOBY == 1 then LESSR() end
-if MNLOOBY == 2 then mag() end
+if MNLOOBY == 2 then recoil100() end
 if MNLOOBY == 3 then HSHOT1() end
 if MNLOOBY == 4 then HSHOT2() end
 if MNLOOBY == 5 then HSHOT3() end
@@ -1135,6 +1200,33 @@ PUBGMH = -1
 end
 
 
+function recoil100()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber('-2220275582962234864', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber('-2220275582962234864', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress('C1C', -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(14)
+gg.editAll('-2220275582962234865', gg.TYPE_QWORD)
+gg.clearResults()
+gg.toast('\n—⪻•『 Kᴇᴇᴘ Cᴀʟᴍ 』•⪼—')
+gg.clearResults()
+gg.searchNumber('4827858804535200272', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber('4827858804535200272', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress('474', -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(14)
+gg.editAll('4827858804535200271', gg.TYPE_QWORD)
+gg.clearResults()
+gg.toast('\n—⪻•『 Sᴀʙᴀʀ 』•⪼—')
+gg.clearResults()
+gg.searchNumber('-2220275582962234864', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber('-2220275582962234864', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress('984', -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll('-2220275582962234865', gg.TYPE_QWORD)
+gg.clearResults()
+gg.toast(os.date('\nTᴏᴅᴀʏ: %d/%m/%Y Tɪᴍᴇ: %H:%M:%S\n    —⪻•『 Nᴏ Rᴇᴄᴏɪʟ V➀ 』•⪼—'))
+end
 function aimlok()
 gg.clearResults()
 gg.setRanges(gg.REGION_C_DATA)
@@ -1271,8 +1363,9 @@ MNINGAME = gg.choice({
 "❰  ⁦🌲      ازالة الحشيش والأشجار       🌲  ❱",
 "❰  ⁦🌱    ازالة حشيش خريطة ايرنجل   🌱  ❱",
 "❰  ⁦🦸            قفزة متوسطة               🦸  ❱",
-"❰  ⁦🏃       سرعة لاعب ( تشغيل )        🏃  ❱",
-"❰  ⁦🚶        سرعة لاعب ( ايقاف )        🚶  ❱",
+--"❰  ⁦🏃       سرعة لاعب ( تشغيل )        🏃  ❱",
+--"❰  ⁦🚶        سرعة لاعب ( ايقاف )        🚶  ❱",
+"		طيران الجيب		",
 "❰  ⁦⬅️            [رجوع - Back]            ⬅️  ❱",
   }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n             ♔🔸〘 S.E sami 〙🔸♔\n🔸 Telegram ⟮ SE_2030 ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if MNINGAME == nil then else
@@ -1288,9 +1381,28 @@ if MNINGAME == 9 then NOGRA2() end
 if MNINGAME == 10 then SUPERJUMP() end
 if MNINGAME == 11 then SPEED1() end
 if MNINGAME == 12 then SPEED2() end
+if MNINGAME == 13 then flyjeep() end
 if MNINGAME == 13 then HOME() end
 end
 PUBGMH = -1
+end
+
+
+function flyjeep()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("0.76000005007;0.96078431606;1;0.74509805441::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.74509805441", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(9999)
+gg.editAll("99999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("45F;15F;20F;2500F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(999)
+gg.editAll("500", gg.TYPE_FLOAT)
+gg.toast("ᴀᴄᴛɪᴠᴀᴛᴇᴅ")
+gg.setVisible(false)
 end
 
 function NOFOG()
