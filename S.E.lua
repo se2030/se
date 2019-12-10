@@ -1,4 +1,4 @@
---gg.alert("script by SeniorM10 \n DECRYPT & Edit by << @SE_2030 >> \n \n اصدار 1.2 \n تم اضاقه \n ولهاك و لون اكسنوس 7870 \n [fast]ثبات 100 \n طيران الجيب \n ")
+gg.alert("script by SeniorM10 \n DECRYPT & Edit by << @SE_2030 >> v1.1 ")
 HOME = 1
 function HOME()
 MN = gg.choice({
