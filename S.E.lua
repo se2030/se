@@ -1,7 +1,9 @@
-gg.alert("script by SeniorM10 \n DECRYPT & Edit by << @SE_2030 >> v1.1 ")
+gg.alert("script by SeniorM10 \n DECRYPT & Edit by << @SE_2030 >> v1.2 ")
 HOME = 1
 function HOME()
 MN = gg.choice({
+"one click [LOOBY]",
+"one click [GAME]",
 "❰  ⁦📂        قائمة الول هاك و الألوان       📂  ❱",
 "❰  ⁦📂          تفعيل خصائص اللوبي        📂  ❱",
 "❰  ⁦📂     تفعيل خصائص داخل الجيم     📂  ❱",
@@ -10,15 +12,34 @@ MN = gg.choice({
 "❰                   ⁦⛔   خـروج   ⛔                  ❱",
   }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n             ♔🔸〘 S.E sami 〙🔸♔\n🔸 Telegram ⟮ SE_2030 ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if MN == nil then else
-if MN == 1 then BDY() end
-if MN == 2 then LOOBY() end
-if MN == 3 then INGAME() end
-if MN == 4 then FLASHSPD() end
-if MN == 5 then NOTSAFE() end
-if MN == 6 then CLOSE() end
+if MN == 1 then one() end
+if MN == 2 then game() end
+if MN == 3 then BDY() end
+if MN == 4 then LOOBY() end
+if MN == 5 then INGAME() end
+if MN == 6 then FLASHSPD() end
+if MN == 7 then NOTSAFE() end
+if MN == 8 then CLOSE() end
 end
 PUBGMH = -1
 end
+
+function game()
+gg.alert("sit scope, Ipad View, Average jump ")
+SITSCOPE()
+IPAD()
+SUPERJUMP()
+end
+
+function one()
+gg.alert("Antena, aimlock, no recoil 100, magic bullet")
+ANTE()
+aimlok()
+recoil100()
+mag()
+HSHOT1()
+end
+
 
 
 function BDY()
@@ -1119,6 +1140,7 @@ MNLOOBY = gg.choice({
 "❰  ⁦🚫                 ايم لـوك                  🚫  ❱",
 "		{ايم لوك [Limona]}		",
 "               {ماجك بوليت }                  ",
+"	Sᴍᴀʟʟ Cʀᴏssʜᴀɪʀ",
 "❰  ⁦⬅️            [رجوع - Back]            ⬅️  ❱",
   }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n             ♔🔸〘 S.E sami 〙🔸♔\n🔸 Telegram ⟮ SE_2030 ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if MNLOOBY == nil then else
@@ -1130,11 +1152,22 @@ if MNLOOBY == 5 then HSHOT3() end
 if MNLOOBY == 6 then HSHOT4() end
 if MNLOOBY == 7 then aimlok() end
 if MNLOOBY == 8 then mag() end
-if MNLOOBY == 9 then HOME() end
+if MNLOOBY == 9 then small() end
+if MNLOOBY == 10 then HOME() end
 end
 PUBGMH = -1
 end
-
+function small()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber('-2220275582962234864', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber('-2220275582962234864', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress('C94', -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(14)
+gg.editAll('-2220275586956263424', gg.TYPE_QWORD)
+gg.clearResults()
+gg.toast(os.date('\nTᴏᴅᴀʏ : %d/%m/%Y Tɪᴍᴇ : %H:%M:%S\n  —⪻•『 Sᴍᴀʟʟ Cʀᴏssʜᴀɪʀ 』•⪼—'))
+end
 
 function recoil100()
 gg.clearResults()
@@ -1162,6 +1195,15 @@ gg.getResults(1)
 gg.editAll('-2220275582962234865', gg.TYPE_QWORD)
 gg.clearResults()
 gg.toast(os.date('\nTᴏᴅᴀʏ: %d/%m/%Y Tɪᴍᴇ: %H:%M:%S\n    —⪻•『 Nᴏ Rᴇᴄᴏɪʟ V➀ 』•⪼—'))
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber('-2220275582962234864', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber('-2220275582962234864', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress('C94', -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(14)
+gg.editAll('-2220275586956263424', gg.TYPE_QWORD)
+gg.clearResults()
+gg.toast(os.date('\nTᴏᴅᴀʏ : %d/%m/%Y Tɪᴍᴇ : %H:%M:%S\n  —⪻•『 Sᴍᴀʟʟ Cʀᴏssʜᴀɪʀ 』•⪼—'))
 end
 function aimlok()
 gg.clearResults()
@@ -1188,15 +1230,6 @@ gg.getResults(1401)
 gg.editAll('-2220275582962234865', gg.TYPE_QWORD)
 gg.clearResults()
 gg.toast(os.date('\nTᴏᴅᴀʏ: %d/%m/%Y Tɪᴍᴇ: %H:%M:%S\n   —⪻•『 Lᴇss Rᴇᴄᴏɪʟ V➀ 』•⪼—'))
-gg.clearResults()
-gg.setRanges(gg.REGION_C_DATA)
-gg.searchNumber('-2220275582962234864', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber('-2220275582962234864', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress('C94', -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(14)
-gg.editAll('-2220275586956263424', gg.TYPE_QWORD)
-gg.clearResults()
-gg.toast(os.date('\nTᴏᴅᴀʏ : %d/%m/%Y Tɪᴍᴇ : %H:%M:%S\n  —⪻•『 Sᴍᴀʟʟ Cʀᴏssʜᴀɪʀ 』•⪼—'))
 end
 
 
@@ -1318,7 +1351,7 @@ if MNINGAME == 10 then SUPERJUMP() end
 if MNINGAME == 11 then SPEED1() end
 if MNINGAME == 12 then SPEED2() end
 if MNINGAME == 13 then flyjeep() end
-if MNINGAME == 13 then HOME() end
+if MNINGAME == 14 then HOME() end
 end
 PUBGMH = -1
 end
