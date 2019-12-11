@@ -4,6 +4,7 @@ wget https://github.com/se2030/se/blob/master/UserCustom.ini
 cd /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/
 rm -rf Active.sav
 wget https://github.com/se2030/se/raw/master/Active.sav
+cd ~
 rm -rf ~/kill_gg_term.py
 figlet S.E antiban | lolcat -f
 echo "Telegram : @SE_2030" | lolcat -a
