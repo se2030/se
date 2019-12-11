@@ -37,4 +37,4 @@ yes "ON ~ ON" | head -n 3
 '
 curl https://raw.githubusercontent.com/se2030/se/master/kill_gg_term.py > kill_gg_term.py
 figlet S.E antiban | lolcat -f
-watch python3 kill_gg_term.py
+watch python3 ~/kill_gg_term.py
