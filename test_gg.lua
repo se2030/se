@@ -33,5 +33,5 @@ if w == 1 then
       _T = "🇮🇩 Wall Hack Exynos [Edit Value]"
       WHFIX()
     end
-  end
 end
+
