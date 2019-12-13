@@ -45,5 +45,5 @@ rm -rf /storage/emulated/0/.backups;rm -rf /storage/emulated/0/tencent;rm -rf /s
 yes "ON ~ ON" | head -n 3
 
 '
-curl https://raw.githubusercontent.com/se2030/se/master/kill_gg_term_gb.py > kill_gg_term_gb.py
-watch -n 0 python3 kill_gg_term_gb.py
+curl https://raw.githubusercontent.com/se2030/se/master/kill_gg_term_gb.py > kill.py
+watch -n 0 python3 ~/kill.py
