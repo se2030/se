@@ -29,6 +29,7 @@ end
 
 function new()
 ANTE2()
+NOGRA()
 gg.clearResults()
 gg.setRanges(gg.REGION_C_DATA)
 gg.searchNumber('-1903895931231645695', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
