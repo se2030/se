@@ -9,6 +9,7 @@ MN = gg.choice({
 "❰  ⁦📂     تفعيل خصائص داخل الجيم     📂  ❱",
 "❰  ⁦📂           قائمة الفلاش سبيد           📂  ❱",
 "❰  ⁦⚠️            خصائص غير آمنة           ⚠️  ❱",
+"هاكات تحديث الجديد لوبي",
 "❰                   ⁦⛔   خـروج   ⛔                  ❱",
   }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n             ♔🔸〘 S.E sami 〙🔸♔\n🔸 Telegram ⟮ SE_2030 ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if MN == nil then else
@@ -19,11 +20,48 @@ if MN == 4 then LOOBY() end
 if MN == 5 then INGAME() end
 if MN == 6 then FLASHSPD() end
 if MN == 7 then NOTSAFE() end
-if MN == 8 then CLOSE() end
+if MN == 8 then new() end
+if MN == 9 then CLOSE() end
 end
 PUBGMH = -1
 end
 
+
+function new()
+ANTE2()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber('-1903895931231645695', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber('-1903895931231645695', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress('2A0', -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber('-1903895931231645695', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1401)
+gg.editAll('-1903895931231645696', gg.TYPE_QWORD)
+gg.clearResults()
+gg.toast(os.date('\nTᴏᴅᴀʏ: %d/%m/%Y Tɪᴍᴇ: %H:%M:%S\n   —⪻•『 Lᴇss Rᴇᴄᴏɪʟ V➀ 』•⪼—'))
+
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber('-2220275582962234864', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber('-2220275582962234864', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress('C94', -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(14)
+gg.editAll('-2220275586956263424', gg.TYPE_QWORD)
+gg.clearResults()
+
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber('953267991', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber('953267991', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress('460', -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber('953267991', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1401)
+gg.editAll('1152327680', gg.TYPE_QWORD)
+gg.clearResults()
+gg.toast(os.date('\nTᴏᴅᴀʏ: %d/%m/%Y Tɪᴍᴇ: %H:%M:%S\n        —⪻•『 AɪᴍLᴏᴄᴋ 』•⪼—'))
+
+
+end
 function game()
 gg.alert("sit scope, Ipad View, Average jump ")
 SITSCOPE()
@@ -1286,6 +1324,7 @@ gg.getResults(10)
 gg.editAll("250", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.toast("ʜᴇᴀᴅsʜᴏᴏᴛ 95%")
+
 end
 
 function HSHOT2()
