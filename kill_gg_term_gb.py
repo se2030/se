@@ -7,4 +7,4 @@ with open('ps_A.txt', 'rb', 0) as file, \
     if s.find(b'com.tencent.ig') != -1:
         print("true")
     else:
-        os.system("pid=$(su -c pidof com.z.iuxvxqfa.amudmr watch  ) ;su -c kill $pid ")
+        os.system("pid=$(su -c pidof com.z.iuxvxqfa.amudmr watch com.termux ) ;su -c kill $pid ")
