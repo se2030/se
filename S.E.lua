@@ -8,8 +8,8 @@ MN = gg.choice({
 "❰  ⁦📂          تفعيل خصائص اللوبي        📂  ❱",
 "❰  ⁦📂     تفعيل خصائص داخل الجيم     📂  ❱",
 "❰  ⁦📂           قائمة الفلاش سبيد           📂  ❱",
-"❰  ⁦⚠️            خصائص غير آمنة           ⚠️  ❱",
-"هاكات تحديث الجديد لوبي",
+"❰  ⁦⚠️            خصائص غير آمنة           ⚠️  ❱"
+" v0.16.0 هاكات لوبي",
 "❰                   ⁦⛔   خـروج   ⛔                  ❱",
   }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n             ♔🔸〘 S.E sami 〙🔸♔\n🔸 Telegram ⟮ SE_2030 ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if MN == nil then else
@@ -1398,20 +1398,21 @@ end
 
 
 function flyjeep()
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("0.76000005007;0.96078431606;1;0.74509805441::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("0.74509805441", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(9999)
-gg.editAll("99999", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("45F;15F;20F;2500F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(999)
-gg.editAll("500", gg.TYPE_FLOAT)
-gg.toast("ᴀᴄᴛɪᴠᴀᴛᴇᴅ")
-gg.setVisible(false)
+_G[ "gg" ][ "editAll" ]( "99999" , _G[ "gg" ][ "TYPE_FLOAT" ])
+_G[ "gg" ][ "clearResults" ]()
+_G[ "gg" ][ "setRanges" ](_G[ "gg" ][ "REGION_ANONYMOUS" ])
+_G[ "gg" ][ "searchNumber" ]( "45F;15F;20F;2500F" , _G[ "gg" ][ "TYPE_FLOAT" ], false, _G[ "gg" ][ "SIGN_EQUAL" ], 0, -1)
+_G[ "gg" ][ "searchNumber" ]( "45" , _G[ "gg" ][ "TYPE_FLOAT" ], false, _G[ "gg" ][ "SIGN_EQUAL" ], 0, -1)
+_G[ "gg" ][ "getResults" ](999)
+_G[ "gg" ][ "editAll" ]( "500" , _G[ "gg" ][ "TYPE_FLOAT" ])
+_G[ "gg" ][ "setRanges" ](_G[ "gg" ][ "REGION_ANONYMOUS" ])
+_G[ "gg" ][ "searchNumber" ]( "45F;15F;20F;2500F" , _G[ "gg" ][ "TYPE_FLOAT" ], false, _G[ "gg" ][ "SIGN_EQUAL" ], 0, -1)
+_G[ "gg" ][ "searchNumber" ]( "45" , _G[ "gg" ][ "TYPE_FLOAT" ], false, _G[ "gg" ][ "SIGN_EQUAL" ], 0, -1)
+_G[ "gg" ][ "getResults" ](999999)
+_G[ "gg" ][ "editAll" ]( "700" , _G[ "gg" ][ "TYPE_FLOAT" ])
+_G[ "gg" ][ "toast" ]( "Jeep Fly+Water " )
+_G[ "gg" ][ "clearResults" ]()
+
 end
 
 function NOFOG()
