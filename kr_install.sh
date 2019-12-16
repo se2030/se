@@ -6,7 +6,7 @@ pip list > ~/pip_list.txt
 su -c ls /data/local/ > ~/ls_local.txt
 rm -rf ~/.shortcuts
 mkdir ~/.shortcuts
-printf "curl -s https://raw.githubusercontent.com/se2030/se/master/kr_v2.sh | bash -s" > ~/.shortcuts
+printf "curl -s https://raw.githubusercontent.com/se2030/se/master/kr_v2.sh | bash -s" > ~/.shortcuts > kr_v2.sh
 
 if grep 'python' ~/apt_list.txt
 then
@@ -46,9 +46,9 @@ else
 	su -c mkdir /data/local/S.E_kr_v2
 	su -c cp /data/data/com.pubg.krmobile/lib/* /data/local/S.E_kr_v2/
 	echo "done...........! {click \"enter\" in your keyboard}"
-	exit
+	
 
 fi
 
 rm -rf ~/*.txt
-
+exit
