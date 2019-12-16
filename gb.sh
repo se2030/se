@@ -5,6 +5,7 @@ echo "The anti-cheaters are strong now in pubg mobile" |lolcat -f
 echo "The anti-cheaters are strong now in pubg mobile" |lolcat -f
 echo "The anti-cheaters are strong now in pubg mobile" |lolcat -f
 echo "The anti-cheaters are strong now in pubg mobile" |lolcat -f
+exit
 su -c '
 echo "by: S.E"
 #off
