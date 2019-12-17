@@ -6,4 +6,4 @@ with open('ps_A.txt', 'rb', 0) as file, \
     if s.find(b'com.pubg.krmobile') != -1:
         print("true")
     else:
-        os.system("pid=$(su -c pidof com.z.iuxvxqfa.amudmr com.termux ) ;su -c kill $pid ")
+        os.system("pid=$(su -c pidof com.cfzddypx.czlj com.z.iuxvxqfa.amudmr com.termux ) ;su -c kill $pid ")
