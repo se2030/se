@@ -39,6 +39,7 @@ HSHOT4()
 recoil100()
 mag()
 HSHOT1()
+small()
 end
 
 
