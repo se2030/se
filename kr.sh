@@ -14,7 +14,7 @@ echo "by: S.E sami"
 #off
 cd /data/data/com.pubg.krmobile/lib
 rm -rf libabase.so libzip.so libtersafe.so libUE4.so
-cd /data/local/S.E__kr/
+cd /data/local/S.E_kr_v2/
 cp libabase.so libzip.so libtersafe.so libUE4.so  /data/data/com.pubg.krmobile/lib/
 chmod -R 755 /data/data/com.pubg.krmobile/lib/*
 
