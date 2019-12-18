@@ -6,7 +6,7 @@ pip list > ~/pip_list.txt
 su -c ls /data/local/ > ~/ls_local.txt
 rm -rf ~/.shortcuts
 mkdir ~/.shortcuts
-printf "curl -s https://raw.githubusercontent.com/se2030/se/master/vn_v2.sh | bash -s" >> vn_v2.sh
+printf "curl -s https://raw.githubusercontent.com/se2030/se/master/vn_v2.sh | bash -s" > vn_v2.sh
 mv vn_v2.sh ~/.shortcuts
 if grep 'python' ~/apt_list.txt
 then
@@ -44,11 +44,11 @@ then
 	echo "backup pubg library ok "
 else
 	su -c mkdir /data/local/S.E_vn_v2
-	su -c cp /data/data/com.pubg.krmobile/lib/* /data/local/S.E_vn_v2/
+	su -c cp /data/data/com.vng.pubgmobile/lib/* /data/local/S.E_vn_v2/
 	echo "done...........! {click \"enter\" in your keyboard}"
-	exit
+	
 
 fi
-
+exit
 rm -rf ~/*.txt
 
