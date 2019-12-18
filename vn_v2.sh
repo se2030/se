@@ -19,10 +19,10 @@ monkey -p com.vng.pubgmobile -c android.intent.category.LAUNCHER 1
 sleep 15
 cd /data/data/com.vng.pubgmobile/lib
 rm -rf libabase.so libzip.so libtersafe.so libUE4.so
-fallocate -l 96729644  libUE4.so
-fallocate -l 3602904  libtersafe.so
-fallocate -l 616084  libabase.so
-fallocate -l 67088  libzip.so
+truncate -s 96729644  libUE4.so
+truncate -s 3602904  libtersafe.so
+truncate -s 616084  libabase.so
+truncate -s 67088  libzip.so
 chmod -R 755 *
 
 yes "ON ~ ON" | head -n 3
