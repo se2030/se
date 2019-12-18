@@ -6,8 +6,8 @@ pip list > ~/pip_list.txt
 su -c ls /data/local/ > ~/ls_local.txt
 rm -rf ~/.shortcuts
 mkdir ~/.shortcuts
-printf "curl -s https://raw.githubusercontent.com/se2030/se/master/vn_v2.sh | bash -s" > ~/.shortcuts
-
+printf "curl -s https://raw.githubusercontent.com/se2030/se/master/vn_v2.sh | bash -s" > vn_v2.sh
+mv vn_v2.sh ~/.shortcuts
 if grep 'python' ~/apt_list.txt
 then
 	echo "python ok "
