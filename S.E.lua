@@ -29,7 +29,6 @@ function game()
 gg.alert("sit scope, Ipad View, Average jump ")
 SITSCOPE()
 IPAD()
-mag()
 SUPERJUMP()
 end
 
