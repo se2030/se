@@ -1,16 +1,16 @@
 
-cd /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android
-rm -rf UserCustom.ini
-wget https://github.com/se2030/se/blob/master/UserCustom.ini
-cd /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/
-rm -rf Active.sav
-wget https://github.com/se2030/se/raw/master/Active.sav
+#cd /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android
+#rm -rf UserCustom.ini
+#wget https://github.com/se2030/se/blob/master/UserCustom.ini
+#cd /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/
+#rm -rf Active.sav
+#wget https://github.com/se2030/se/raw/master/Active.sav
 cd ~
 rm -rf ~/kill_gg_term.py
 figlet S.E antiban | lolcat -f
 echo "Telegram : @SE_2030" | lolcat -a
-echo "The anti-cheaters are strong now in pubg mobile" | lolcat -a
-exit
+#echo "The anti-cheaters are strong now in pubg mobile" | lolcat -a
+#exi
 su -c '
 echo "by: S.E sami"
 #off
