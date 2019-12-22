@@ -1,4 +1,5 @@
 
+date
 #cd /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android
 #rm -rf UserCustom.ini
 #wget https://github.com/se2030/se/blob/master/UserCustom.ini
