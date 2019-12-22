@@ -24,7 +24,7 @@ yes "OFF ~ OFF" | head -n 3
 
 
 
-monkey -p com.cfzddypx.czlj -c android.intent.category.LAUNCHER 1
+#monkey -p com.cfzddypx.czlj -c android.intent.category.LAUNCHER 1
 monkey -p com.z.iuxvxqfa.amudmr -c android.intent.category.LAUNCHER 1
 monkey -p com.pubg.krmobile -c android.intent.category.LAUNCHER 1
 
