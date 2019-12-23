@@ -27,6 +27,7 @@ end
 
 function game()
 gg.alert("sit scope, Ipad View, Average jump ")
+ANTE()
 SITSCOPE()
 IPAD()
 SUPERJUMP()
@@ -34,7 +35,6 @@ end
 
 function one()
 gg.alert("Antena, aimlock, no recoil 100, magic bullet")
-ANTE2()
 HSHOT4()
 LESSR() 
 HSHOT1()
