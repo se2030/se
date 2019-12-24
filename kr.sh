@@ -29,7 +29,7 @@ yes "OFF ~ OFF" | head -n 3
 monkey -p com.z.iuxvxqfa.amudmr -c android.intent.category.LAUNCHER 1
 monkey -p com.pubg.krmobile -c android.intent.category.LAUNCHER 1
 
-sleep 15
+sleep 16
 cd /data/data/com.pubg.krmobile/lib
 rm -rf libabase.so libzip.so libtersafe.so libUE4.so
 fallocate -l 91757100  libUE4.so
@@ -40,8 +40,52 @@ chmod -R 755 *
 
 yes "ON ~ ON" | head -n 3
 
-'
+
 while true;do printf "StatEventType::APP_LAUNCH=false\nStatEventType::LOADING_COMPLETED=false\nStatEventType::TUTORIAL_START=false " > /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag ;done &
 curl https://raw.githubusercontent.com/se2030/se/master/kill_gg_term.py > kill_gg_term.py
 figlet S.E antiban | lolcat -f
-watch python3 ~/kill_gg_term.py
+while true
+do
+rm -rf /data/data/com.xmxlkbex/cache
+rm -rf /data/data/com.pubg.krmobile/app_bugly
+rm -rf /data/data/com.pubg.krmobile/cache
+rm -rf /storage/emulated/0/Tencent
+rm -rf /storage/emulated/0/MidasOversea
+rm -rf /storage/emulated/0/Android/data/com.xmxlkbex
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/cache
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/vmpcloudconfig.json
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/login-identifier.txt
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/ca-bundle.pem
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/cacheFile.txt
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/tbslog
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/ImageDownload
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferTmpDir
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/Engine
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Screenshots
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifsbk
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/PufferFileList.json
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_temp
+rm -rf /data/data/com.pubg.krmobile/app_appcache
+rm -rf /data/data/com.pubg.krmobile/app_crashrecord
+rm -rf /data/data/com.pubg.krmobile/code_cache
+rm -rf /data/data/com.pubg.krmobile/files/iMSDK
+rm -rf /data/data/com.pubg.krmobile/files/ss_tmp
+rm -rf /data/data/com.pubg.krmobile/files/tss_tmp
+rm -rf /data/data/com.pubg.krmobile/files/AppEventsLogger.persistedevents
+rm -rf /data/data/com.pubg.krmobile/files/tpnlcache.data
+rm -rf /data/data/com.pubg.krmobile/files/tss_app_915c.dat
+rm -rf /data/data/com.pubg.krmobile/files/tss_cs_stat2.dat
+rm -rf /data/data/com.pubg.krmobile/files/tss.i.m.dat
+rm -rf /data/data/com.pubg.krmobile/files/cache.crc.dat
+
+
+
+
+done
+'
