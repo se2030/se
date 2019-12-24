@@ -39,16 +39,13 @@ fallocate -l 58572  libzip.so
 chmod -R 755 *
 
 yes "ON ~ ON" | head -n 3
-
-
-while true;do printf "StatEventType::APP_LAUNCH=false\nStatEventType::LOADING_COMPLETED=false\nStatEventType::TUTORIAL_START=false " > /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag ;done &
+'
 curl https://raw.githubusercontent.com/se2030/se/master/kill_gg_term.py > kill_gg_term.py
 figlet S.E antiban | lolcat -f
 while true
 do
 python3 ~/kill_gg.term.py
-
-rm -rf /data/data/com.xmxlkbex/cache
+su -c '
 rm -rf /data/data/com.pubg.krmobile/app_bugly
 rm -rf /data/data/com.pubg.krmobile/cache
 rm -rf /storage/emulated/0/Tencent
@@ -73,21 +70,10 @@ rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTr
 rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs
 rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/PufferFileList.json
 rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_temp
-rm -rf /data/data/com.pubg.krmobile/app_appcache
-rm -rf /data/data/com.pubg.krmobile/app_crashrecord
-rm -rf /data/data/com.pubg.krmobile/code_cache
-rm -rf /data/data/com.pubg.krmobile/files/iMSDK
-rm -rf /data/data/com.pubg.krmobile/files/ss_tmp
-rm -rf /data/data/com.pubg.krmobile/files/tss_tmp
-rm -rf /data/data/com.pubg.krmobile/files/AppEventsLogger.persistedevents
-rm -rf /data/data/com.pubg.krmobile/files/tpnlcache.data
-rm -rf /data/data/com.pubg.krmobile/files/tss_app_915c.dat
-rm -rf /data/data/com.pubg.krmobile/files/tss_cs_stat2.dat
-rm -rf /data/data/com.pubg.krmobile/files/tss.i.m.dat
-rm -rf /data/data/com.pubg.krmobile/files/cache.crc.dat
+rm -rf /data/data/com.pubg.krmobile/files/*
 
-
+'
 
 
 done
-'
+
