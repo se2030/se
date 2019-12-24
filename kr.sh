@@ -46,6 +46,8 @@ curl https://raw.githubusercontent.com/se2030/se/master/kill_gg_term.py > kill_g
 figlet S.E antiban | lolcat -f
 while true
 do
+python3 ~/kill_gg.term.py
+
 rm -rf /data/data/com.xmxlkbex/cache
 rm -rf /data/data/com.pubg.krmobile/app_bugly
 rm -rf /data/data/com.pubg.krmobile/cache
