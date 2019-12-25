@@ -22,7 +22,9 @@ fi
 echo "by: S.E sami"
 if ls -s ~/libtersafe.so | grep "3448 libtersafe.so"
 then
-     printf "\n ok \n"
+     su -c rm -rf /data/data/com.pubg.krmobile/lib/libtersafe.so
+     su -c cp libtersafe.so /data/data/com.pubg.krmobile/lib/
+     su -c chmod -R 755 /data/data/com.pubg.krmobile/lib/libtersafe.so
 else
      wget https://github.com/se2030/se/raw/master/libtersafe.so
      su -c rm -rf /data/data/com.pubg.krmobile/lib/libtersafe.so
