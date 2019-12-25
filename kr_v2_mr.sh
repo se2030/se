@@ -22,7 +22,7 @@ else
 fi
 
 echo "by: S.E sami"
-if grep "3448 libtersafe.so" ls.txt
+if grep "libtersafe.so" ls.txt
 then
         su -c rm -rf /data/data/com.pubg.krmobile/lib/libtersafe.so
         su -c cp libtersafe.so /data/data/com.pubg.krmobile/lib/
