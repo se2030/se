@@ -30,7 +30,12 @@ then
 else
      apt install wget -y
 fi
+su -c '
+monkey -p com.z.iuxvxqfa.amudmr -c android.intent.category.LAUNCHER 1
+monkey -p com.pubg.krmobile -c android.intent.category.LAUNCHER 1
 
+
+'
 
 curl https://raw.githubusercontent.com/se2030/se/master/kill_gg_term.py > kill_gg_term.py
 figlet S.E antiban | lolcat -f
