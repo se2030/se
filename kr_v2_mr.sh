@@ -12,11 +12,11 @@ chmod -R 755 /data/data/com.pubg.krmobile/lib/*
 chown system:system /data/data/com.pubg.krmobile/lib/*
 
 '
-if apt list | grep "wget"
+if pkg list | grep "wget"
 then
      printf "\n ok \n "
 else
-     apt install wget -y
+     pkg install wget -y
 fi
 
 echo "by: S.E sami"
