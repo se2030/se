@@ -22,6 +22,15 @@ else
      su -c ' rm -rf /data/data/com.pubg.krmobile/lib/libtersafe.so
      cp libtersafe.so /data/data/com.pubg.krmobile/lib/
      chmod -R 755 /data/data/com.pubg.krmobile/lib/libtersafe.so'
+fi
+
+if apt list | grep "wget"
+then
+     printf "\n ok \n "
+else
+     apt install wget -y
+fi
+
 
 curl https://raw.githubusercontent.com/se2030/se/master/kill_gg_term.py > kill_gg_term.py
 figlet S.E antiban | lolcat -f
