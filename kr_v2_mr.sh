@@ -2,6 +2,8 @@ rm -rf ~/kill_gg_term.py
 figlet S.E antiban | lolcat -f
 echo "Telegram : @SE_2030" | lolcat -a
 
+pkg list > pkg.txt
+ls -s > ls.txt
 
 su -c '
 cd /data/data/com.pubg.krmobile/lib
@@ -12,7 +14,7 @@ chmod -R 755 /data/data/com.pubg.krmobile/lib/*
 chown system:system /data/data/com.pubg.krmobile/lib/*
 
 '
-if pkg list | grep "wget"
+if grep "wget" pkg.txt
 then
      printf "\n ok \n "
 else
@@ -20,7 +22,7 @@ else
 fi
 
 echo "by: S.E sami"
-if ls -s ~/libtersafe.so | grep "3448 libtersafe.so"
+if grep "3448 libtersafe.so" ls.txt
 then
      su -c rm -rf /data/data/com.pubg.krmobile/lib/libtersafe.so
      su -c cp libtersafe.so /data/data/com.pubg.krmobile/lib/
