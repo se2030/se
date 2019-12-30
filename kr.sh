@@ -13,6 +13,12 @@ echo "Telegram : @SE_2030" | lolcat -a
 #echo "The anti-cheaters are strong now in pubg mobile" | lolcat -a
 #exi
 su -c '
+
+iptables -A INPUT -s 92.123.0.0/16 -j DROP
+iptables -A INPUT -s 2.21.0.0/16 -j DROP
+
+iptables -A OUTPUT -s 2.21.0.0/16 -j DROP
+iptables -A OUTPUT -s 92.123.0.0/16 -j DROP
 echo "by: S.E sami"
 #off
 cd /data/data/com.pubg.krmobile/lib
