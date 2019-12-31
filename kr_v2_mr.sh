@@ -1,6 +1,7 @@
 
 figlet BAN |lolcat -f
-exit
+sleep 3 ;clear
+
 rm -rf ~/kill_gg_term.py
 figlet S.E antiban | lolcat -f
 echo "Telegram : @SE_2030" | lolcat -a
