@@ -1,8 +1,9 @@
-gg.alert("script by SeniorM10 \n DECRYPT & Edit by << @SE_2030 >> v1.5 ")
+gg.alert("script by SeniorM10 \n DECRYPT and Edit by << @SE_2030 >> v2.0 ")
 HOME = 1
 function HOME()
 MN = gg.choice({
-"one click [LOOBY]",
+"<<<<<<<anti-ban [LOBBY]>>>S.E>>>>",
+"one click [LOBBY]",
 "one click [GAME]",
 "❰  ⁦📂          تفعيل خصائص اللوبي        📂  ❱",
 "❰  ⁦📂     تفعيل خصائص داخل الجيم     📂  ❱",
@@ -11,22 +12,123 @@ MN = gg.choice({
 "❰                   ⁦⛔   خـروج   ⛔                  ❱",
   }, nil, "╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n             ♔🔸〘 S.E sami 〙🔸♔\n🔸 Telegram ⟮ SE_2030 ⟯ للتواصل 🔸 \n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝")
 if MN == nil then else
-if MN == 1 then one() end
-if MN == 2 then game() end
-if MN == 3 then LOOBY() end
-if MN == 4 then INGAME() end
-if MN == 5 then FLASHSPD() end
-if MN == 6 then NOTSAFE() end
-if MN == 7 then CLOSE() end
+if MN == 1 then antiban() end
+if MN == 2 then one() end
+if MN == 3 then game() end
+if MN == 4 then LOOBY() end
+if MN == 5 then INGAME() end
+if MN == 6 then FLASHSPD() end
+if MN == 7 then NOTSAFE() end
+if MN == 8 then CLOSE() end
 end
 PUBGMH = -1
 end
 
 
-
+function antiban()
+SN = gg.searchNumber
+GC = gg.choice
+MC = gg.multiChoice
+GR = gg.getResults
+GRC = gg.getResultCount
+EA = gg.editAll
+SA = gg.searchAddress
+TX = gg.TYPE_XOR
+TB = gg.TYPE_BYTE
+TQ = gg.TYPE_QWORD
+TF = gg.TYPE_FLOAT
+TDB = gg.TYPE_DOUBLE
+TW = gg.TYPE_WORD
+TD = gg.TYPE_DWORD
+TA = gg.TYPE_AUTO
+SE = gg.SIGN_EQUAL
+SF = gg.SIGN_FLOAT
+TT = gg.toast
+CR = gg.clearResults
+AR = gg.alert
+SR = gg.setRanges
+RA = gg.REGION_ANONYMOUS
+RB = gg.REGION_BAD
+RC = gg.REGION_C_ALLOC
+SV = gg.setValues
+PT = gg.prompt
+PR = print
+FC = gg.processKill
+OE = os.exit
+AR("If your phone processor is Exsynos and your using WallHack Activate Wall_hack before activating Anti-Ban")
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+SN("2.2IIIIII95IIIIIIII88IIIIII74e-41;1638IIII4D;16384ID;16384IIIID;16IIIIIIIIIIII384D;1IIIIIIII6384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+if gg.getResultCount() == 0 then
+  gg.toast("Failed")
+else
+  SN("2.IIIIIIIIIII29588IIIIIIIIIIIIII74e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  resultsCount = gg.getResultCount()
+  results = gg.getResults(resultsCount)
+  for _FORV_3_ = 1, resultsCount do
+    gg.addListItems({
+      [1] = {
+        address = results[_FORV_3_].address + 0,
+        flags = 4,
+        freeze = true,
+        value = 70037
+      }
+    })
+    gg.addListItems({
+      [1] = {
+        address = results[_FORV_3_].address + 4,
+        flags = 4,
+        freeze = true,
+        value = 70037
+      }
+    })
+    gg.addListItems({
+      [1] = {
+        address = results[_FORV_3_].address + 8,
+        flags = 4,
+        freeze = true,
+        value = 70037
+      }
+    })
+    gg.addListItems({
+      [1] = {
+        address = results[_FORV_3_].address + 12,
+        flags = 4,
+        freeze = true,
+        value = 70037
+      }
+    })
+    gg.addListItems({
+      [1] = {
+        address = results[_FORV_3_].address + 16,
+        flags = 4,
+        freeze = true,
+        value = 70037
+      }
+    })
+    gg.addListItems({
+      [1] = {
+        address = results[_FORV_3_].address + 20,
+        flags = 4,
+        freeze = true,
+        value = 70032
+      }
+    })
+    gg.addListItems({
+      [1] = {
+        address = results[_FORV_3_].address + 100,
+        flags = 4,
+        freeze = true,
+        value = 16384
+      }
+    })
+  end
+  TT("SUCCESS")
+end
+end
 
 function game()
-gg.alert("sit scope, Ipad View, Average jump ")
+gg.alert("sit scope, Ipad View, Average jump , antena")
 ANTE()
 SITSCOPE()
 IPAD()
@@ -34,7 +136,7 @@ SUPERJUMP()
 end
 
 function one()
-gg.alert("Antena, aimlock, no recoil 100, magic bullet")
+gg.alert("Antena, aimlock, no recoil 100, aimbot 100m, headshot 95%")
 HSHOT4()
 LESSR() 
 HSHOT1()
