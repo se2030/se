@@ -1,7 +1,3 @@
-
-figlet BAN |lolcat -f
-sleep 3 ;clear
-
 rm -rf ~/kill_gg_term.py
 figlet S.E antiban | lolcat -f
 echo "Telegram : @SE_2030" | lolcat -a
@@ -18,12 +14,12 @@ chmod -R 755 /data/data/com.pubg.krmobile/lib/*
 chown system:system /data/data/com.pubg.krmobile/lib/*
 
 '
-if grep "wget" pkg.txt
-then
-         printf "\n ok \n "
-else
-        pkg install wget -y
-fi
+#if grep "wget" pkg.txt
+#then
+#         printf "\n ok \n "
+#else
+#        pkg install wget -y
+#fi
 
 echo "by: S.E sami"
 if grep "libtersafe.so" ls.txt
