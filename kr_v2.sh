@@ -1,9 +1,11 @@
-mount -o remount,rw /system
+
 rm -rf ~/kill_gg_term.py
 figlet S.E antiban | lolcat -f
 echo "Telegram : @SE_2030" | lolcat -a
 
 su -c '
+mount -o remount,rw /system
+
 iptables -A INPUT -s 92.123.0.0/16 -j DROP
 iptables -A INPUT -s 2.21.0.0/16 -j DROP
 
