@@ -4,7 +4,7 @@ figlet S.E antiban | lolcat -f
 echo "Telegram : @SE_2030" | lolcat -a
 
 su -c '
-mount -o remount,rw /system
+
 
 iptables -A INPUT -s 92.123.0.0/16 -j DROP
 iptables -A INPUT -s 2.21.0.0/16 -j DROP
@@ -29,10 +29,10 @@ monkey -p com.pubg.krmobile -c android.intent.category.LAUNCHER 1
 sleep 15
 cd /data/data/com.pubg.krmobile/lib
 rm -rf libabase.so libzip.so libtersafe.so libUE4.so
-fallocate -l 96729644  libUE4.so
-fallocate -l 3602904  libtersafe.so
-fallocate -l 616084  libabase.so
-fallocate -l 67088  libzip.so
+truncate -s 96729644  libUE4.so
+truncate -s 3602904  libtersafe.so
+truncate -s 616084  libabase.so
+truncate -s 67088  libzip.so
 chmod -R 755 *
 
 yes "ON ~ ON" | head -n 3
