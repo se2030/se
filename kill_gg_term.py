@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import mmap,os
-
+os.system("find /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/ -type f -not -name 'map_dihorotok_0.16.0.11460.pak' -not -name 'map_desert_0.16.0.11460.pak' -not -name 'map_ruinshalf_0.16.0.11460.pak' -not -name 'map_savagemain_0.15.0.11270.pak' -not -name 'map_tdfactory_0.16.0.11460.pak' -delete")
 os.system("su -c ps > ps_A.txt ;su -c ps -A > ps_B.txt ;su -c cat ps* > ps.txt;su -c rm -rf ps_*")
 #os.system("if grep "true" /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag ;then       printf "StatEventType::APP_LAUNCH=false\nStatEventType::LOADING_COMPLETED=false\nStatEventType::TUTORIAL_START=false " > /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag ;fi")
 with open('ps.txt', 'rb', 0) as file, \
