@@ -1,4 +1,4 @@
-gg.alert("script by SeniorM10 \n DECRYPT and Edit by << @SE_2030 >> v2.0 ")
+gg.alert("script by SeniorM10 \n DECRYPT and Edit by << @SE_2030 >> v3.0 ")
 HOME = 1
 function HOME()
 MN = gg.choice({
@@ -130,16 +130,14 @@ end
 function game()
 gg.alert("sit scope, Ipad View, Average jump , antena")
 ANTE()
-SITSCOPE()
 IPAD()
-SUPERJUMP()
+HSHOT1()
 end
 
 function one()
 gg.alert("Antena, aimlock, no recoil 100, aimbot 100m, headshot 95%")
 HSHOT4()
 LESSR() 
-HSHOT1()
 HSHOT3()
 small()
 end
@@ -244,14 +242,6 @@ gg.clearResults()
     gg.editAll('414', gg.TYPE_FLOAT)
     gg.clearResults()
 gg.toast("Headshot 100% 0.16.0")
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("90.775703430176;0;8;15;16;18;28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("1000", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("damge ++")
 end
 
 function HSHOT2()
