@@ -26,105 +26,28 @@ end
 
 
 function antiban()
-SN = gg.searchNumber
-GC = gg.choice
-MC = gg.multiChoice
-GR = gg.getResults
-GRC = gg.getResultCount
-EA = gg.editAll
-SA = gg.searchAddress
-TX = gg.TYPE_XOR
-TB = gg.TYPE_BYTE
-TQ = gg.TYPE_QWORD
-TF = gg.TYPE_FLOAT
-TDB = gg.TYPE_DOUBLE
-TW = gg.TYPE_WORD
-TD = gg.TYPE_DWORD
-TA = gg.TYPE_AUTO
-SE = gg.SIGN_EQUAL
-SF = gg.SIGN_FLOAT
-TT = gg.toast
-CR = gg.clearResults
-AR = gg.alert
-SR = gg.setRanges
-RA = gg.REGION_ANONYMOUS
-RB = gg.REGION_BAD
-RC = gg.REGION_C_ALLOC
-SV = gg.setValues
-PT = gg.prompt
-PR = print
-FC = gg.processKill
-OE = os.exit
-AR("If your phone processor is Exsynos and your using WallHack Activate Wall_hack before activating Anti-Ban")
 gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-SN("2.2IIIIII95IIIIIIII88IIIIII74e-41;1638IIII4D;16384ID;16384IIIID;16IIIIIIIIIIII384D;1IIIIIIII6384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-if gg.getResultCount() == 0 then
-  gg.toast("Failed")
-else
-  SN("2.IIIIIIIIIII29588IIIIIIIIIIIIII74e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  resultsCount = gg.getResultCount()
-  results = gg.getResults(resultsCount)
-  for _FORV_3_ = 1, resultsCount do
-    gg.addListItems({
-      [1] = {
-        address = results[_FORV_3_].address + 0,
-        flags = 4,
-        freeze = true,
-        value = 70037
-      }
-    })
-    gg.addListItems({
-      [1] = {
-        address = results[_FORV_3_].address + 4,
-        flags = 4,
-        freeze = true,
-        value = 70037
-      }
-    })
-    gg.addListItems({
-      [1] = {
-        address = results[_FORV_3_].address + 8,
-        flags = 4,
-        freeze = true,
-        value = 70037
-      }
-    })
-    gg.addListItems({
-      [1] = {
-        address = results[_FORV_3_].address + 12,
-        flags = 4,
-        freeze = true,
-        value = 70037
-      }
-    })
-    gg.addListItems({
-      [1] = {
-        address = results[_FORV_3_].address + 16,
-        flags = 4,
-        freeze = true,
-        value = 70037
-      }
-    })
-    gg.addListItems({
-      [1] = {
-        address = results[_FORV_3_].address + 20,
-        flags = 4,
-        freeze = true,
-        value = 70032
-      }
-    })
-    gg.addListItems({
-      [1] = {
-        address = results[_FORV_3_].address + 100,
-        flags = 4,
-        freeze = true,
-        value = 16384
-      }
-    })
+ gg.setRanges(gg.REGION_C_ALLOC) 
+gg.searchNumber("16384;16384;16384;16384;16384;4451", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  if gg.getResultsCount() > 1 then gg.toast("🔐 Value found")
+  gg.refineNumber("4451", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  revert = gg.getResults(100)
+  local t = gg.getResults(100)
+  for i, v in ipairs(t) do
+   if v.flags == gg.TYPE_DWORD then
+    v.value = "227"
+    v.freeze = true
+   end
   end
-  TT("SUCCESS")
-end
+  gg.addListItems(t)
+  t = nil
+  gg.clearResults()
+  gg.sleep(1700)
+  gg.alert("🛡️PROTECTION ANTIBAN🛡️")
+  else
+  gg.toast("🛡️PROTECTION ANTIBAN ON🛡️")
+  end
+  end
 end
 
 function game()
