@@ -1,5 +1,7 @@
 echo start
 date
+echo ""
+echo ""
 
 su -c '
 rm -rf /data/data/com.oktabagames.puzzle/lib/libgojni.so
