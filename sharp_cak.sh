@@ -4,7 +4,7 @@ date
 su -c '
 rm -rf /data/data/com.oktabagames.puzzle/lib/libgojni.so
 
-cp libgojni.so /data/data/com.oktabagames.puzzle/lib/
+cp .libgojni.so /data/data/com.oktabagames.puzzle/lib/libgojni.so
 
 am start -n com.lbmaq/com.lbmaq.MainActivity
 monkey -p com.oktabagames.puzzle -c android.intent.category.LAUNCHER 1
