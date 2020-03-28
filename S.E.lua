@@ -20,14 +20,14 @@ function HOME()
 end
 
 function lobby()
-gg.alert("ايملوك, ايمبوت , ثبات 75% , انتيما, انتي باند")
+gg.alert("ايملوك, ايمبوت , ثبات 75% , انتينا, انتي باند")
 
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
 if gg.getResultCount() == 0 then
 gg.alert("ERROR \n لم يتم تشغيل الانتي باند لا اعد تشغيل اللعبة ")
-EXIT()
+gg.processKill()
 else
 gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 n=gg.getResultCount()
