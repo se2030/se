@@ -165,12 +165,13 @@ end
 function recoil75()
 gg.clearResults()
 gg.setRanges(gg.REGION_C_DATA)
-gg.searchNumber("-2 220 275 582 962 234 864", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("EBC", -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("-2 220 275 586 956 263 424", gg.TYPE_QWORD)
+gg.searchNumber("-308,340,074;-309,065,165;-290,186,560;-286,131,696:13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("-290,186,560", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("0", gg.TYPE_DWORD)
 gg.clearResults()
-gg.toast("🎯 ʟᴇss ʀᴇᴄᴏɪʟ 75%")
+gg.toast("Less recoil")
+
 end
 
 function aimlock()
