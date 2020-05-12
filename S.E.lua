@@ -33,7 +33,6 @@ end
 --oneclick
 function onelobby()
 gg.alert("ايملوك, ايمبوت , ثبات 75% , انتينا, انتي باند")
-antiban()
 antena()
 recoil75()
 aimlock()
