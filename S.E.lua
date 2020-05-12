@@ -136,19 +136,55 @@ end
 function antiban()
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)                                     
 if gg.getResultCount() == 0 then
-gg.alert("ERROR \n لم يتم تشغيل الاني باند اعد تشغيل اللعبة")
 gg.processKill()
+gg.alert("VALUE NOT FOUND")
 else
 gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 n=gg.getResultCount()
 jz=gg.getResults(n)
 for i=1, n do
+gg.addListItems({[1] = {address =jz[i].address+4,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+48,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+100,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+16,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+1000,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+0.5,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+8200,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+5,flags = 5,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+48,flags = 5,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+16,flags = 5,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+20,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+7,flags = 4,freeze = true,value = 0}})
 
-gg.addListItems({[1] = {address =jz[i].address+48,flags = 4,freeze = true,value = 70032}})
-gg.addListItems({[1] = {address =jz[i].address+100,flags = 4,freeze = true,value = 4451}})
-end end
+gg.addListItems({[1] = {address =jz[i].address+8,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+9,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+30,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+40,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+620,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+0,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+11,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+3,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+1,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+2,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+6,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+13,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+14,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+00,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+17,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+390,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+69,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+74,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address =jz[i].address+6000,flags = 4,freeze = true,value = 0}})
+
+
+
+
+
+
+end
+end
 end
 --lobby function
 function antena()
