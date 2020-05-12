@@ -137,7 +137,6 @@ gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)                                     
 if gg.getResultCount() == 0 then
-gg.processKill()
 gg.alert("VALUE NOT FOUND")
 else
 gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
