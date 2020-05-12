@@ -149,8 +149,8 @@ for i=1, n do
 gg.addListItems({[1] = {address =jz[i].address+48,flags = 4,freeze = true,value = 70032}})
 gg.addListItems({[1] = {address =jz[i].address+100,flags = 4,freeze = true,value = 4451}})
 end 
-
-
+end
+end
 --lobby function
 function antena()
 gg.clearResults()
