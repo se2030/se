@@ -133,7 +133,20 @@ end
 
 --hacks
 function antiban()
-gg.alert("lll")
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+if gg.getResultCount() == 0 then
+gg.toast("防封开启失败")
+else
+gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+n=gg.getResultCount()
+jz=gg.getResults(n)
+for i=1, n do
+
+gg.addListItems({[1] = {address =jz[i].address+48,flags = 4,freeze = true,value = 70032}})
+gg.addListItems({[1] = {address =jz[i].address+100,flags = 4,freeze = true,value = 4451}})
+end end
 end
 --lobby function
 function antena()
