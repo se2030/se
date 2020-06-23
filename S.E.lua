@@ -92,7 +92,7 @@ function lobby()
     if MN0[8] == true then
       ipad150()
     end
-    if MN0[8] == true then
+    if MN0[9] == true then
       HOME()
     end
   end
