@@ -64,6 +64,7 @@ function lobby()
     "  ازالة حشيش خريطة ايرنجل ",
     "منع انتشار الرصاص",
     "منظور واسع",
+    "ايم لوك امن",
     "رجوع",
   }, nil, "sami S.E \n telegram: @SE_2030")
   if MN0 == nil then
@@ -93,6 +94,9 @@ function lobby()
       ipad150()
     end
     if MN0[9] == true then
+      aimlocksafe()
+    end
+    if MN0[10] == true then
       HOME()
     end
   end
@@ -365,6 +369,19 @@ qmxg = {
 }
 xqmnb(qmnb)
 
+end
+function aimlocksafe()
+--- aimbot 50m ---
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("h 2B 00 00 8A 80 4A C2 EE E4 4A FD EE", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(gg.getResultsCount())
+gg.editAll("h 00 00 00 00 80 4A C2 EE E4 4A FD EE", gg.TYPE_BYTE)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("h 15 00 00 8A 80 4A C1 EE E4 4A FD EE", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(gg.getResultsCount())
+gg.editAll("h 00 00 00 00 80 4A C1 EE E4 4A FD EE", gg.TYPE_BYTE)
+gg.clearResults()
 end
 
 --game function
