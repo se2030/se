@@ -175,19 +175,10 @@ gg.toast("Antenna ON")
 end
 
 function recoil75()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_DATA|gg.REGION_CODE_APP)
-gg.searchNumber("-1327407162645804543", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("-1327407162645804543", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("A28", -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
-NL50OFF=gg.getResults(1401)
-gg.editAll("-1327407166641930240", gg.TYPE_QWORD)
-gg.clearResults() 
-gg.searchNumber("-1 387 800 265 460 020 720", 32, false, gg.SIGN_EQUAL, 0, -1) 
-gg.refineAddress("6F8", -1, 32) 
-NL100OFF2=gg.getResults(1337) 
-gg.editAll("-1 387 800 268 364 578 816", 32) 
-gg.toast("🎯ɴᴏ ʀᴇᴄᴏɪʟ")
+gg.searchAddress("AF8")
+gg.refineNumber("-5.1080439e27", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("-5.1080439e20", gg.TYPE_FLOAT)
 
 end
 
