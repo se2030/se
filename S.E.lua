@@ -1,6 +1,6 @@
 gg.alert('Telegram: @SE_2030 \n \n Script PUBGM Version 0.19.0.13900')
 function Main0()
-SN = gg.multiChoice({
+SN = gg.choice({
 	 "bypass (لوبي)",
 	 "ثبات 100%+ منع انتشار الرصاص  (لوبي)",
 	 "ايم لوك (لوبي)",
