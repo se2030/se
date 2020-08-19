@@ -37,7 +37,8 @@ gg.alert('Telegram: @SE_2030')
 end
 
 function HS2()
-  gg.clearResults()
+  
+gg.clearResults()
   gg.setRanges(gg.REGION_C_DATA|gg.REGION_CODE_APP)
   gg.searchNumber("-2.786982e28;-3.7444097e28;-1.1368837e-13::", 16, false, 536870912, 0, -1)
   gg.searchNumber("-3.7444097e28", 16, false, 536870912, 0, -1)
@@ -56,12 +57,12 @@ function HS2()
   gg.getResults(1)
   gg.editAll("0", 16)
   gg.clearResults() 
+gg.clearResults() 
   gg.setRanges(gg.REGION_C_DATA|gg.REGION_CODE_APP)
-  gg.searchNumber("-1387800265460020720", 32, false, gg.SIGN_EQUAL, 0, -1) 
-  gg.editAll("-1 387 800 268 364 578 816", 32) 
-  gg.clearResults()
+gg.searchNumber("-1387800265460020720", 32, false, gg.SIGN_EQUAL, 0, -1) 
+gg.getResults(5) 
+gg.editAll("-1 387 800 268 364 578 816", 32) 
 end
-
 function HS3()
 gg.clearResults()
 gg.setRanges(gg.REGION_C_DATA|gg.REGION_CODE_APP)
