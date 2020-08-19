@@ -8,4 +8,5 @@ iptables -D OUTPUT -s file.igamecj.com -j DROP
 iptables -D INPUT -s file.igamecj.com -j DROP
 iptables -A OUTPUT -s file.igamecj.com -j DROP
 iptables -A INPUT -s file.igamecj.com -j DROP
+am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity
 '
