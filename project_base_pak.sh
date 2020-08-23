@@ -17,6 +17,6 @@ iptables -A OUTPUT -p tcp --destination-port 8085 -j DROP
 iptables -A INPUT -p tcp --destination-port 8085 -j DROP
 iptables -A OUTPUT -s gcloud-versvr.igamecj.com -j DROP
 iptables -A INPUT -s gcloud-versvr.igamecj.com -j DROP
-
+rm -rf /data/data/com.pubg.krmobile/databases
 am start -n com.pubg.krmobile/com.epicgames.ue4.SplashActivity
 '
