@@ -5,6 +5,7 @@ SN = gg.choice({
 	 "ثبات 100%+ منع انتشار الرصاص  (لوبي)",
 	 "ايم لوك (لوبي)",
 	 "ماجك + هيد (كيم)",
+         ")لوبي( ثبات %50 ",
 	 "خروج",
 }, nil, "Telegram: @SE_2030")
 if SN==1 then
@@ -20,6 +21,9 @@ if SN==4 then
 	 HS4()
 end
 if SN==5 then
+         HS5()
+end
+if SN==6 then
 	 os.exit()
 	 gg.alert('Telegrsm: @SE_2030')
 end
@@ -37,7 +41,12 @@ gg.alert('Telegram: @SE_2030')
 end
 
 function HS2()
-  
+  gg.setRanges(gg.REGION_C_DATA|gg.REGION_CODE_APP)
+  gg.searchNumber("6.16297656e-33;-7.16028818e24;-1.11445016e28;3.81268224e-21:73", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("-1.11445016e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+ gg.getResults(50000)
+   gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
 gg.clearResults()
   gg.setRanges(gg.REGION_C_DATA|gg.REGION_CODE_APP)
   gg.searchNumber("-2.786982e28;-3.7444097e28;-1.1368837e-13::", 16, false, 536870912, 0, -1)
@@ -100,6 +109,20 @@ gg.getResults(21)
 gg.editAll("900", 16)
 gg.clearResults()
 gg.alert('Telegram: @SE_2030')
+end
+
+function HS5()
+gg.setRanges(gg.REGION_C_DATA|gg.REGION_CODE_APP)
+  gg.searchNumber("6.16297656e-33;-7.16028818e24;-1.11445016e28;3.81268224e-21:73", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("-1.11445016e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+ gg.getResults(50000)
+   gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults() 
+  gg.setRanges(gg.REGION_C_DATA|gg.REGION_CODE_APP)
+gg.searchNumber("-1387800265460020720", 32, false, gg.SIGN_EQUAL, 0, -1) 
+gg.getResults(5) 
+gg.editAll("-1 387 800 268 364 578 816", 32) 
+gg.clearResults()
 end
 
 while true do
